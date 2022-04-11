@@ -158,6 +158,141 @@ $`14`
 
 Terms with highest beta with 14 topic
 
+$`16`
+
+| topic |                   term                   |
+|:------|:----------------------------------------:|
+| 1     |    nasdaq, nyse, trade, share, close     |
+| 2     |     vehicl, tesla, motor, said, auto     |
+| 3     |    said, reuter, state, trump, govern    |
+| 4     |    earn, estim, zack, quarter, stock     |
+| 5     |     rate, market, year, will, expect     |
+| 6     | year, quarter, million, revenu, billion  |
+| 7     |  system, compani, health, will, defens   |
+| 8     |    percent, trade, index, stock, rose    |
+| 9     |    compani, appl, will, googl, amazon    |
+| 10    |     retail, store, sale, brand, food     |
+| 11    |   compani, growth, zack, market, rank    |
+| 12    |  stock, zack, invest, industri, compani  |
+| 13    |  energi, price, product, compani, year   |
+| 14    |     market, time, week, trade, stock     |
+| 15    |    fund, bank, invest, dividend, year    |
+| 16    | drug, compani, patient, treatment, studi |
+
+Terms with highest beta with 16 topic
+
+$`18`
+
+| topic |                   term                   |
+|:------|:----------------------------------------:|
+| 1     |    properti, real, estat, reit, citi     |
+| 2     |    nasdaq, nyse, share, trade, stock     |
+| 3     |   said, reuter, presid, state, execut    |
+| 4     |    earn, quarter, estim, zack, report    |
+| 5     |    rate, market, expect, month, will     |
+| 6     | year, quarter, million, revenu, billion  |
+| 7     |   energi, compani, nyse, product, will   |
+| 8     |    percent, trade, index, rose, fell     |
+| 9     |    compani, servic, appl, will, googl    |
+| 10    |    retail, store, amazon, sale, game     |
+| 11    |  compani, growth, market, busi, product  |
+| 12    |    stock, zack, rank, year, industri     |
+| 13    |   china, gold, chines, trade, countri    |
+| 14    |     market, time, price, week, look      |
+| 15    |    fund, bank, invest, dividend, year    |
+| 16    | compani, drug, patient, medic, treatment |
+| 17    |  stock, invest, zack, research, market   |
+| 18    |   vehicl, said, tesla, compani, motor    |
+
+Terms with highest beta with 18 topic
+
+$`20`
+
+| topic |                   term                    |
+|:------|:-----------------------------------------:|
+| 1     |    china, trade, chines, trump, tariff    |
+| 2     |  health, medic, healthcar, care, nasdaq   |
+| 3     |    game, year, netflix, first, disney     |
+| 4     |    earn, quarter, estim, zack, report     |
+| 5     |     rate, market, expect, month, week     |
+| 6     |  year, quarter, million, revenu, billion  |
+| 7     |    energi, will, product, nyse, airlin    |
+| 8     |     percent, rose, point, fell, trade     |
+| 9     |  compani, servic, will, technolog, googl  |
+| 10    |    sale, retail, compani, store, brand    |
+| 11    | invest, stock, zack, research, recommend  |
+| 12    |    zack, compani, rank, stock, growth     |
+| 13    |      market, time, will, just, look       |
+| 14    |     nasdaq, nyse, stock, trade, share     |
+| 15    |   fund, bank, invest, dividend, compani   |
+| 16    | drug, compani, treatment, approv, patient |
+| 17    |   stock, estim, current, investor, earn   |
+| 18    |   vehicl, said, tesla, electr, compani    |
+| 19    |    said, reuter, state, govern, presid    |
+| 20    |    gold, price, compani, mine, product    |
+
+Terms with highest beta with 20 topic
+
+$`22`
+
+| topic |                   term                    |
+|:------|:-----------------------------------------:|
+| 1     |   china, chines, trade, tariff, countri   |
+| 2     | health, medic, nasdaq, healthcar, system  |
+| 3     |    game, netflix, disney, year, first     |
+| 4     |   quarter, earn, report, expect, share    |
+| 5     |      rate, market, month, will, year      |
+| 6     | bank, dividend, financi, compani, billion |
+| 7     |   energi, will, product, compani, nyse    |
+| 8     |     percent, rose, point, fell, trade     |
+| 9     |  compani, servic, will, appl, technolog   |
+| 10    |     retail, sale, store, amazon, home     |
+| 11    |  compani, growth, product, market, busi   |
+| 12    |   stock, year, valu, current, industri    |
+| 13    |      market, will, like, time, just       |
+| 14    |     nasdaq, nyse, stock, trade, close     |
+| 15    |    invest, stock, zack, fund, research    |
+| 16    | drug, patient, compani, treatment, approv |
+| 17    |    earn, estim, zack, stock, consensus    |
+| 18    |   vehicl, tesla, said, electr, compani    |
+| 19    |    said, reuter, state, govern, trump     |
+| 20    |     gold, trade, market, price, week      |
+| 21    |    zack, rank, earn, quarter, compani     |
+| 22    |   year, million, quarter, revenu, oper    |
+
+Terms with highest beta with 22 topic
+
+$`24`
+
+| topic |                   term                   |
+|:------|:----------------------------------------:|
+| 1     |  airlin, steel, unit, travel, transport  |
+| 2     |    nasdaq, nyse, share, stock, trade     |
+| 3     |      game, first, point, year, said      |
+| 4     |   share, report, quarter, expect, earn   |
+| 5     |    rate, market, month, expect, data     |
+| 6     |  compani, dividend, share, stock, cash   |
+| 7     | health, system, medic, defens, healthcar |
+| 8     |    percent, rose, trade, fell, point     |
+| 9     |    will, year, netflix, stream, chief    |
+| 10    |   sale, retail, store, compani, brand    |
+| 11    |    compani, zack, growth, rank, stock    |
+| 12    |   stock, invest, zack, valu, research    |
+| 13    |      market, will, time, like, just      |
+| 14    |   china, trade, chines, trump, tariff    |
+| 15    |    bank, fund, invest, financi, asset    |
+| 16    | drug, compani, patient, treatment, studi |
+| 17    |    stock, zack, estim, current, year     |
+| 18    |    vehicl, electr, tesla, will, motor    |
+| 19    |   said, reuter, compani, state, govern   |
+| 20    |  energi, price, product, gold, compani   |
+| 21    |  earn, estim, zack, quarter, consensus   |
+| 22    | year, million, quarter, revenu, billion  |
+| 23    | compani, appl, technolog, servic, googl  |
+| 24    |     week, trade, market, stock, move     |
+
+Terms with highest beta with 24 topic
+
 ``` r
 fit_stm14 <- fit_stm_df %>% 
   pull(fit, k) %>% 
@@ -246,9 +381,109 @@ labelTopics(fit_stm14)
     ##       Score: trader, chart, resist, index, bearish, week, overbought
 
 ``` r
+cloud(fit_stm14, topic = 2)
+```
+
+![](result_files/figure-gfm/cloud-1.png)<!-- -->
+
+``` r
 findThoughts(fit_stm14, texts = news_df$content[- dat.proc$docs.removed], n = 5, topics = 2)$docs[[1]] %>% 
   gsub(pattern = "Now read$", replacement = "") %>% 
   plotQuote(width = 60)
 ```
 
 ![](result_files/figure-gfm/thoughts-1.png)<!-- -->
+
+``` r
+gamma_df <- fit_stm14 %>% 
+  broom::tidy("gamma")
+```
+
+``` r
+news_gamma_df <- news_df %>% 
+  mutate(t = as.numeric(release_date - min(release_date))) %>% 
+  select(release_date, t, content) %>% 
+  slice(- dat.proc$docs.removed) %>% 
+  select(release_date, t, content) %>% 
+  bind_cols(
+    broom::tidy(fit_stm14, "gamma") %>% 
+      filter(topic == 2)
+  )
+```
+
+``` r
+word_gamma_df <- news_gamma_df %>% 
+  select(release_date, gamma, document, content) %>% 
+  unnest_tokens("word", "content") %>% 
+  filter(str_length(word) >= 4)
+```
+
+``` r
+daily_gamma_df <- word_gamma_df %>% 
+  group_by(release_date) %>% 
+  summarise(
+    weighted_gamma = mean(gamma), # weighted by n words
+    gamma = mean(ifelse(!duplicated(document), gamma, NA), na.rm = TRUE),
+    n_word = n(),
+    n_document = n_distinct(document)
+  )
+```
+
+``` r
+library(patchwork)
+p1 <- daily_gamma_df %>% 
+  select(release_date, weighted_gamma, gamma) %>% 
+  pivot_longer(- release_date) %>% 
+  ggplot(aes(release_date, value, color = name)) + 
+  geom_line() + 
+  labs(color = NULL) +
+  theme(legend.position = "top")
+
+p2 <- daily_gamma_df %>% 
+  select(release_date, n_word, n_document) %>% 
+  pivot_longer(- release_date) %>% 
+  ggplot(aes(release_date, value)) + 
+  facet_wrap(~ name, ncol = 1, scales = "free_y") + 
+  geom_line()
+
+patchwork::wrap_plots(p1, p2, ncol = 1, heights  = c(1, 3))
+```
+
+![](result_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+
+``` r
+mothly_gamma_df <- word_gamma_df %>%
+  mutate(time = lubridate::floor_date(release_date, "month")) %>% 
+  group_by(time) %>% 
+  summarise(
+    weighted_gamma = mean(gamma), # weighted by n words
+    gamma = mean(ifelse(!duplicated(document), gamma, NA), na.rm = TRUE),
+    n_word = n(),
+    n_document = n_distinct(document)
+  )
+```
+
+``` r
+p1 <- mothly_gamma_df %>% 
+  select(time, weighted_gamma, gamma) %>% 
+  pivot_longer(- time) %>% 
+  ggplot(aes(time, value, color = name)) + 
+  geom_line() + 
+  labs(color = NULL) +
+  theme(legend.position = "top")
+
+p2 <- mothly_gamma_df %>% 
+  select(time, n_word, n_document) %>% 
+  pivot_longer(- time) %>% 
+  ggplot(aes(time, value)) + 
+  facet_wrap(~ name, ncol = 1, scales = "free_y") + 
+  geom_line()
+
+patchwork::wrap_plots(p1, p2, ncol = 1, heights  = c(1, 3))
+```
+
+![](result_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+
+``` r
+# TODO fittness
+```

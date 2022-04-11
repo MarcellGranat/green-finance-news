@@ -62,10 +62,106 @@ plot(fit_stm14, type = "summary")
 labelTopics(fit_stm14)
 ```
 
+```{r cloud}
+cloud(fit_stm14, topic = 2)
+```
+
 ```{r thoughts, fig.height = 14}
 findThoughts(fit_stm14, texts = news_df$content[- dat.proc$docs.removed], n = 5, topics = 2)$docs[[1]] %>% 
   gsub(pattern = "Now read$", replacement = "") %>% 
   plotQuote(width = 60)
 ```
+
+```{r}
+gamma_df <- fit_stm14 %>% 
+  broom::tidy("gamma")
+```
+
+```{r}
+news_gamma_df <- news_df %>% 
+  mutate(t = as.numeric(release_date - min(release_date))) %>% 
+  select(release_date, t, content) %>% 
+  slice(- dat.proc$docs.removed) %>% 
+  select(release_date, t, content) %>% 
+  bind_cols(
+    broom::tidy(fit_stm14, "gamma") %>% 
+      filter(topic == 2)
+  )
+```
+
+```{r}
+word_gamma_df <- news_gamma_df %>% 
+  select(release_date, gamma, document, content) %>% 
+  unnest_tokens("word", "content") %>% 
+  filter(str_length(word) >= 4)
+```
+
+```{r}
+daily_gamma_df <- word_gamma_df %>% 
+  group_by(release_date) %>% 
+  summarise(
+    weighted_gamma = mean(gamma), # weighted by n words
+    gamma = mean(ifelse(!duplicated(document), gamma, NA), na.rm = TRUE),
+    n_word = n(),
+    n_document = n_distinct(document)
+  )
+```
+
+```{r}
+library(patchwork)
+p1 <- daily_gamma_df %>% 
+  select(release_date, weighted_gamma, gamma) %>% 
+  pivot_longer(- release_date) %>% 
+  ggplot(aes(release_date, value, color = name)) + 
+  geom_line() + 
+  labs(color = NULL) +
+  theme(legend.position = "top")
+
+p2 <- daily_gamma_df %>% 
+  select(release_date, n_word, n_document) %>% 
+  pivot_longer(- release_date) %>% 
+  ggplot(aes(release_date, value)) + 
+  facet_wrap(~ name, ncol = 1, scales = "free_y") + 
+  geom_line()
+
+patchwork::wrap_plots(p1, p2, ncol = 1, heights  = c(1, 3))
+```
+
+```{r}
+mothly_gamma_df <- word_gamma_df %>%
+  mutate(time = lubridate::floor_date(release_date, "month")) %>% 
+  group_by(time) %>% 
+  summarise(
+    weighted_gamma = mean(gamma), # weighted by n words
+    gamma = mean(ifelse(!duplicated(document), gamma, NA), na.rm = TRUE),
+    n_word = n(),
+    n_document = n_distinct(document)
+  )
+```
+
+```{r}
+p1 <- mothly_gamma_df %>% 
+  select(time, weighted_gamma, gamma) %>% 
+  pivot_longer(- time) %>% 
+  ggplot(aes(time, value, color = name)) + 
+  geom_line() + 
+  labs(color = NULL) +
+  theme(legend.position = "top")
+
+p2 <- mothly_gamma_df %>% 
+  select(time, n_word, n_document) %>% 
+  pivot_longer(- time) %>% 
+  ggplot(aes(time, value)) + 
+  facet_wrap(~ name, ncol = 1, scales = "free_y") + 
+  geom_line()
+
+patchwork::wrap_plots(p1, p2, ncol = 1, heights  = c(1, 3))
+```
+
+```{r}
+# TODO fittness
+```
+
+
 
 
