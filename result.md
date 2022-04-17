@@ -293,6 +293,111 @@ $`24`
 
 Terms with highest beta with 24 topic
 
+$`26`
+
+| topic |                   term                   |
+|:------|:----------------------------------------:|
+| 1     | airlin, unit, travel, transport, flight  |
+| 2     |   nasdaq, nyse, share, compani, stock    |
+| 3     |   game, netflix, disney, stream, year    |
+| 4     |  revenu, billion, expect, report, share  |
+| 5     |    rate, expect, market, month, data     |
+| 6     |   bank, dividend, financi, year, capit   |
+| 7     | drug, compani, patient, medic, treatment |
+| 8     |    trade, rose, percent, point, fell     |
+| 9     |      will, time, like, just, think       |
+| 10    |    said, state, govern, trump, reuter    |
+| 11    |    compani, zack, growth, rank, stock    |
+| 12    |   stock, year, investor, current, valu   |
+| 13    |     week, market, trade, stock, move     |
+| 14    |   china, trade, chines, trump, tariff    |
+| 15    |   invest, stock, fund, zack, research    |
+| 16    | appl, compani, technolog, nasdaq, servic |
+| 17    |   option, trade, stock, volatil, share   |
+| 18    |    price, target, read, analyst, rate    |
+| 19    |    vehicl, tesla, will, motor, electr    |
+| 20    |     gold, bond, market, bank, price      |
+| 21    |    sale, retail, store, brand, amazon    |
+| 22    |    year, quarter, million, oper, sale    |
+| 23    | said, percent, compani, reuter, billion  |
+| 24    |  energi, product, price, compani, natur  |
+| 25    |  earn, estim, quarter, zack, consensus   |
+| 26    |    home, properti, hous, real, estat     |
+
+Terms with highest beta with 26 topic
+
+$`28`
+
+| topic |                    term                    |
+|:------|:------------------------------------------:|
+| 1     | airlin, unit, aircraft, transport, flight  |
+| 2     |   nasdaq, technolog, nyse, tech, compani   |
+| 3     |      game, point, first, year, disney      |
+| 4     |  revenu, cloud, servic, softwar, compani   |
+| 5     |     rate, market, expect, month, data      |
+| 6     |   dividend, compani, share, incom, rate    |
+| 7     |     compani, zack, rank, growth, stock     |
+| 8     |     trade, stock, point, close, index      |
+| 9     |      year, think, execut, chief, busi      |
+| 10    |     said, state, reuter, govern, trump     |
+| 11    |   stock, invest, zack, research, inform    |
+| 12    |     stock, zack, year, estim, current      |
+| 13    |      week, trade, market, stock, move      |
+| 14    |    china, trade, chines, trump, tariff     |
+| 15    |    fund, invest, year, investor, asset     |
+| 16    | drug, compani, patient, treatment, approv  |
+| 17    |    option, trade, volatil, stock, move     |
+| 18    | product, industri, read, manufactur, price |
+| 19    |     bank, said, billion, deal, financi     |
+| 20    |      gold, mine, price, metal, silver      |
+| 21    |   percent, said, analyst, share, expect    |
+| 22    |  year, quarter, million, revenu, billion   |
+| 23    |    compani, amazon, googl, servic, will    |
+| 24    |    retail, sale, compani, store, brand     |
+| 25    |     earn, estim, quarter, zack, stock      |
+| 26    |   energi, price, product, compani, nyse    |
+| 27    |     appl, vehicl, compani, tesla, said     |
+| 28    |       market, will, time, like, just       |
+
+Terms with highest beta with 28 topic
+
+$`30`
+
+| topic |                   term                    |
+|:------|:-----------------------------------------:|
+| 1     | airlin, unit, aircraft, transport, flight |
+| 2     |   nasdaq, technolog, share, nyse, chip    |
+| 3     |      game, year, point, first, said       |
+| 4     |    revenu, billion, year, share, busi     |
+| 5     |   bank, dollar, market, euro, european    |
+| 6     |  dividend, compani, bank, financi, share  |
+| 7     |    compani, zack, growth, rank, stock     |
+| 8     |    trade, point, stock, close, nasdaq     |
+| 9     |      will, market, time, just, like       |
+| 10    |    said, trump, presid, state, govern     |
+| 11    |   stock, invest, zack, research, secur    |
+| 12    |   stock, current, zack, industri, valu    |
+| 13    |     week, market, stock, trade, move      |
+| 14    |   china, trade, chines, tariff, global    |
+| 15    |    fund, invest, investor, year, asset    |
+| 16    | drug, compani, patient, treatment, studi  |
+| 17    |    option, trade, volatil, stock, move    |
+| 18    |    vehicl, tesla, motor, auto, electr     |
+| 19    |    said, bank, compani, billion, deal     |
+| 20    |     gold, price, mine, metal, silver      |
+| 21    |   earn, report, expect, quarter, share    |
+| 22    |    year, million, quarter, oper, sale     |
+| 23    |   retail, store, amazon, compani, onlin   |
+| 24    |    compani, brand, food, sale, consum     |
+| 25    |   earn, zack, estim, quarter, consensus   |
+| 26    |   energi, product, price, compani, nyse   |
+| 27    |  appl, compani, technolog, googl, nasdaq  |
+| 28    |    rate, year, month, economi, econom     |
+| 29    |    said, compani, reuter, court, rule     |
+| 30    |   percent, said, reuter, market, share    |
+
+Terms with highest beta with 30 topic
+
 ``` r
 fit_stm14 <- fit_stm_df %>% 
   pull(fit, k) %>% 
