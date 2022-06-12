@@ -26,6 +26,18 @@ load("data/dat_proc.RData")
 ```
 
 ```{r}
+news_df %>% 
+  mutate(m = lubridate::floor_date(release_date, "months")) %>% 
+  count(m) %>% 
+  ggplot(aes(m, n)) + 
+  geom_line() + 
+  geom_point() + 
+  labs(x = NULL, y = "Released documents in the month")
+  
+```
+
+
+```{r}
 fit_stm_df <- list.files("data/", full.names = TRUE) %>% 
   keep(str_detect, "fit_stm") %>% 
   enframe(NULL, "file_name") %>%
